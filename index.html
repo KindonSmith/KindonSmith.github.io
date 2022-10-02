@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <title>Kindon's Tech Portfolio</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" >
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
   <header>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Kindon Smith</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <nav class="navbar">
+      <div class="logo">Kindon Smith</div>
+      <div class="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+      <div class="navlink hide">
+        <a href="#" class="active">home</a>
+        <a href="#">about</a>
+        <a href="#">projects</a>
+        <a href="#">contact</a>
+      </div>
+    </nav>
+
   </header>
-
-  <main>
-    <section id="topBar">
-      <h1 id="myName">Kindon Smith</h1>
-      <ul class="navbar">
-        <li class="currentNav">About Me</li>
-        <li>Projects</li>
-        <li>Contact</li>
-      </ul>
-    </section>
-  </main>
-
-  <footer>
-  </footer>
+  <script src="script.js" defer></script>
+</body>
 </html>
