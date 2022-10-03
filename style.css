@@ -7,21 +7,23 @@
   
   body{
     font-family: Helvetica;
+    background-color: black;
   }
   
   a {
     text-decoration: none;
     color: black;
     font-size: 1.2rem;
-    font-weight: bold;
-    text-transform: uppercase;
+    font-family: Georgia;
   }
   
   .navbar { 
     display: flex;
     justify-content: space-between;
+    position: sticky;
     align-items: center;
-    background-color: var(--electricBlue);
+    background-color: black;
+    opacity: 90%;
     padding-top: 19px;
     top: 4rem;
   }
@@ -30,7 +32,8 @@
     font-size: 2.4rem;
     color: var(--deepBlue);
     padding-left: 20px;
-    
+    color: white;
+    font-family: Helvetica, sans-serif;
   }
   
   .hamburger {
@@ -42,7 +45,8 @@
     width: 40px;
     height: 5px;
     margin-bottom: 10px;
-    background-color: black;
+    background-color: white;
+    color: white;
   }
   
   .navlink {
@@ -51,11 +55,15 @@
     top: 4rem;
     align-items: center;
     background-color: var(--electricBlue);
+
   }
   .navlink a{
     display: block;
     text-align: center;
     padding: 10px 0;
+    color: white;
+    border-radius: 2px;
+    opacity: 90%;
   }
   .navlink a:hover{
     background-color: var(--coolRed);
@@ -75,7 +83,7 @@
       display: block;
       position: static;
       width: auto;
-  
+      background-color: white;
       margin-right: 20px;
       background: none;
     }
@@ -86,6 +94,12 @@
     .hamburger {
       display: none;
     }
+  }
+  
+  .email {
+    background-color: white;
+    width: 15px;
+    height: 15px;
   }
   
   :root {
