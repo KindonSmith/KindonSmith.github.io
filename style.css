@@ -2,13 +2,16 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Helvetica;
+    font-family: 'Helvetica';
+    color: var(--offWhite);
   }
   
   body{
-    font-family: Helvetica;
-    background-color: var(--charcoal);
+    font-family: 'Helvetica';
+    background-color: var(--offWhite);
   }
+  
+
   
   a {
     text-decoration: none;
@@ -22,14 +25,22 @@
     justify-content: space-between;
     align-items: center;
     background-color: var(--offWhite);
+    height: 70px;
+  }
+
+  .bold{
+    font-weight: bold;
   }
   
   .logo {
-    font-size: 2.4rem;
+    display: flex;
+    font-size: 3rem;
     color: var(--deepBlue);
     padding-left: 20px;
     color: var(--charcoal);
     font-family: Helvetica, sans-serif;
+    bottom: auto;
+    align-self: flex-end;
   } 
 
   .navlinks a:hover{
@@ -41,32 +52,63 @@
   .hide {
     display: none;
   }
-  .active {
-    background-color: var(--coolRed);
-  }
+
   
 .navlinks {
   display: flex;
   list-style: none;
-
+  align-self: flex-end;
+  margin-right: 15px;
 }
 .navlinks a{
   display: inline-block;
-  padding: 10px 10px;
-  max-height: 40.8px;
-  
+  padding: 0px 15px;  
 }
 
-  
-  
 .icon {
-  position: sticky;
-  max-width: 1.3rem;
-  max-height: 1.3rem;
-  overflow: hidden;
-  bottom: auto;
+  margin: 15px;
+}
 
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
 
+.certifications{
+  width: 50%;
+  padding: 10px;
+}
+
+.skills{
+  width: 40%;
+  padding: 10px;
+}
+
+.sm {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.me {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.lg {
+  width: 5rem;
+  height: 5rem;
+}
+
+.banner{
+  max-width: 200px;
+  max-height: 50px;
+}
+
+.bar{
+  width: auto;
+  border-top: solid var(--coolRed) 8px;
+  margin: 10px 1px;
+  border-radius: 1px;
 }
   
   :root {
