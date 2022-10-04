@@ -42,12 +42,8 @@
     bottom: auto;
     align-self: flex-end;
   } 
-
-  .navlinks a:hover{
-    background-color: var(--onWhite);
-  }
   .navlinks a:active{
-    background-color: var(--coolBlue);
+    background-color: var(--offWhite);
   }
   .hide {
     display: none;
@@ -55,15 +51,27 @@
 
   
 .navlinks {
+  list-style-type: none;
   display: flex;
-  list-style: none;
+  width: 100px;
+  flex-flow: row nowrap;
+  justify-content: flex-end;;
   align-self: flex-end;
-  margin-right: 15px;
+  margin-right: 5px;
 }
 .navlinks a{
   display: inline-block;
-  padding: 0px 15px;  
+  justify-content: flex-end;
+  margin: 10px;
 }
+
+.navlinks a img {
+  width: auto;
+  height: 26px;
+  margin: auto;
+  padding: auto;
+}
+
 
 .icon {
   margin: 15px;
@@ -75,13 +83,20 @@
 }
 
 .certifications{
-  width: 50%;
-  padding: 10px;
+  
+}
+
+.flex {
+  display: flex;
+  width: 300px;
+  justify-content: center;
+  flex-flow: row wrap;
+  flex-basis: auto;
+  align-items: baseline;
 }
 
 .skills{
-  width: 40%;
-  padding: 10px;
+  
 }
 
 .sm {
