@@ -11,7 +11,9 @@
     background-color: var(--offWhite);
   }
   
-
+  header {
+    height: auto;
+  }
   
   a {
     text-decoration: none;
@@ -25,7 +27,9 @@
     justify-content: space-between;
     align-items: center;
     background-color: var(--offWhite);
-    height: 70px;
+    height: 3rem;
+    position: sticky;
+    margin-top: 60px;
   }
 
   .bold{
@@ -33,15 +37,13 @@
   }
   
   .logo {
-    display: flex;
     font-size: 3rem;
-    color: var(--deepBlue);
     padding-left: 20px;
     color: var(--charcoal);
     font-family: Helvetica, sans-serif;
-    bottom: auto;
     align-self: flex-end;
   } 
+
   .navlinks a:active{
     background-color: var(--offWhite);
   }
